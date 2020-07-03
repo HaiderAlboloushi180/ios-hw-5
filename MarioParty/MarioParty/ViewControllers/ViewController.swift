@@ -47,7 +47,6 @@ class ViewController: UIViewController {
         }
     }
     
-
     @IBAction func randomPlayer(_ sender: Any) {
         let randomChrctr = players.randomElement()!
         playerImgView.image = UIImage(named: randomChrctr.name)

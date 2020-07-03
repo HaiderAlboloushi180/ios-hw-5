@@ -23,6 +23,7 @@ class CharacterDetailsVC: UIViewController {
         nameLabel.text = selectedPlayer.name
         playerImgView.image = UIImage(named: selectedPlayer.name)
         bgImg.image = UIImage(named: selectedPlayer.bgName())
+        playerImgView.layer.cornerRadius = 20
 
         // Do any additional setup after loading the view.
     }
@@ -36,7 +37,7 @@ class CharacterDetailsVC: UIViewController {
     @IBAction func soundTapped(_ sender: Any) {
         playPlayerSound(soundName: selectedPlayer.playerSound())
     }
-    
+
     func playPlayerSound(soundName: String) {
         let path = Bundle.main.path(forResource: soundName, ofType:nil)!
         let url = URL(fileURLWithPath: path)

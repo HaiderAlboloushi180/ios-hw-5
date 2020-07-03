@@ -2,7 +2,7 @@
 //  MarioPlayers.swift
 //  MarioParty
 //
-//  Created by Fatimah Alhashem on 7/2/20.
+//  Created by Haider Al-Boloushi on 7/2/20.
 //  Copyright © 2020 Dalal Alhazeem. All rights reserved.
 //
 
